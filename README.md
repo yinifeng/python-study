@@ -5,7 +5,9 @@ python学习
 ### 1.1、windows终端输出env
 ```shell
 
-#  安装PowerShell 7以上版本
+#  安装PowerShell 
+# 在使用 Windows Terminal 的 PowerShell 时，输入空格后可能会出现黑块。这通常是由于终端设置或模块兼容性问题引起的
+# 更新 PSReadLine 模块：Install-Module -Name PSReadLine -Force -SkipPublisherCheck
 # Windows PowerShell Env
 Get-ChildItem Env:
 
